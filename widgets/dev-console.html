@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DevPlayground — Dev Console</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <style>
+    /* Console-specific tweaks - still transparent and in the same font/size */
+    #console-wrap {
+      background: transparent;
+      padding: 0;
+      margin: 0;
+    }
+    #login {
+      margin-bottom: 8px;
+    }
+    #login input[type="text"]{
+      background: transparent;
+      color: #cccccc;
+      border: 1px dashed rgba(204,204,204,0.15);
+      padding: 4px 6px;
+      font-family: 'Courier New', Arial, monospace;
+      font-size: 14px;
+      line-height: 1.6285714285714286;
+    }
+    #console {
+      white-space: pre-wrap; /* preserves newlines */
+      font-family: 'Courier New', Arial, monospace;
+      font-size: 14px;
+      line-height: 1.6285714285714286;
+      color: #cccccc;
+      margin: 0;
+      padding: 0;
+    }
+    .cursor {
+      display: inline-block;
+      width: 8px;
+      animation: blink 1s steps(1) infinite;
+      vertical-align: baseline;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    /* Remove visual focus outlines to match Google Sites aesthetic */
+    :focus { outline: none; }
+  </style>
+</head>
+<body>
+  <div id="console-wrap">
+    <div id="login">
+      <label for="username" style="color:#cccccc; font-family:'Courier New', Arial, monospace; font-size:14px;">User:</label>
+      <input id="username" type="text" placeholder="dev" />
+      <button id="loginBtn" style="font-family:'Courier New', Arial, monospace; font-size:14px;">Login</button>
+    </div>
+
+    <pre id="console" aria-live="polite"></pre>
+  </div>
+
+  <script src="../assets/js/console.js"></script>
+</body>
+</html>

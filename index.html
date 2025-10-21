@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DevPlayground — Widgets for Google Sites</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <style>
+    /* Minimal landing that blends with GitHub Pages but keeps widgets accessible */
+    body { padding: 18px; background: #000; color: #cccccc; }
+    a { color: #cccccc; }
+    .widget-list { margin-top: 12px; }
+    .widget-list li { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <h1 style="font-family:'Courier New', Arial, monospace;">DevPlayground</h1>
+  <p style="font-family:'Courier New', Arial, monospace;">Embeddable developer widgets (quotes, console, ASCII micro-animations). Use with Google Sites via iframe.</p>
+
+  <ul class="widget-list" style="font-family:'Courier New', Arial, monospace;">
+    <li><a href="widgets/random-quote.html" target="_blank">Random Quote Widget</a> — embed this URL in an iframe.</li>
+    <li><a href="widgets/dev-console.html" target="_blank">Dev Console Widget</a> — login and enjoy the random output.</li>
+    <li>API endpoints: <code>/api/quotes/index.json</code>, <code>/api/console/messages.json</code>, <code>/api/console/ascii.json</code></li>
+  </ul>
+
+  <p style="font-family:'Courier New', Arial, monospace;">To embed in Google Sites: Insert → Embed → By URL → paste the widget URL (example: https://yourusername.github.io/dev-playground/widgets/random-quote.html)</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Base CSS tuned to match your Google Sites typography and spacing.
+   Transparent background so the widget blends into the host page. */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: #cccccc;
+  font-family: 'Courier New', Arial, monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.6285714285714286;
+  text-align: left;
+  text-indent: 0;
+}
+
+/* Use pre for preserving multiline formatting; inherit typography */
+pre {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: #cccccc;
+  font-family: 'Courier New', Arial, monospace;
+  font-size: 14px;
+  line-height: 1.6285714285714286;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
