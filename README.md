@@ -8,6 +8,7 @@ Widgets are intentionally minimal and use a transparent background and `Courier 
 
 ## Project structure
 
+```
 dev-playground/
 │
 ├── api/
@@ -30,6 +31,7 @@ dev-playground/
 │
 ├── index.html
 └── README.md
+```
 
 ---
 
@@ -98,4 +100,5 @@ Just keep the humor alive ✨
 - **Editing JSON**: You can edit `api/*.json` directly in GitHub UI to add new lines without redeploying.
 
 ---
+
 
