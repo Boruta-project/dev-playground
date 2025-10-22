@@ -59,8 +59,10 @@ Use **Insert → Embed → By URL** in Google Sites, and paste one of:
 
 Or embed with an iframe in other HTML:
 
+```
 <iframe src="https://yourusername.github.io/dev-playground/widgets/random-quote.html"
      width="600" height="30" style="border:none;background:transparent;"></iframe>
+```
 
 Notes:
 - For single-line quote widget, use a small height (e.g., height="30"); for console, use a larger height (e.g., height="250").
@@ -100,6 +102,7 @@ Just keep the humor alive ✨
 - **Editing JSON**: You can edit `api/*.json` directly in GitHub UI to add new lines without redeploying.
 
 ---
+
 
 
 
