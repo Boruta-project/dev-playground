@@ -48,7 +48,7 @@ dev-playground/
 2. Add files (preserve paths).
 3. Push to `main` branch.
 4. In repo Settings → Pages, choose branch `main`, folder `/root` and save.
-5. GitHub Pages publishes at: https://yourusername.github.io/dev-playground/
+5. GitHub Pages publishes at: `https://yourusername.github.io/dev-playground/`
 
 ---
 
@@ -71,18 +71,18 @@ Notes:
 ## Customize
 
 Add or edit quotes in api/quotes/index.json.
-Change console messages in api/console/messages.json.
-Add more ASCII frames to api/console/ascii.json.
-Tweak timing and behavior in assets/js/console.js and assets/js/quote.js.
+Change console messages in `api/console/messages.json`.
+Add more ASCII frames to `api/console/ascii.json`.
+Tweak timing and behavior in `assets/js/console.js` and `assets/js/quote.js`.
 Style adjustments in assets/css/base.css.
 
 ---
 
 ## Ideas for expansion
 
-Add /api/errors/index.json with random (funny) error messages.
+Add `/api/errors/index.json` with random (funny) error messages.
 Add a tiny interactive terminal with a few read-only commands (help, joke, fortune) implemented client-side.
-Provide an /embed-generator page that prints the iframe snippet with recommended width/height presets.
+Provide an `/embed-generator` page that prints the iframe snippet with recommended width/height presets.
 
 ---
 
@@ -100,5 +100,6 @@ Just keep the humor alive ✨
 - **Editing JSON**: You can edit `api/*.json` directly in GitHub UI to add new lines without redeploying.
 
 ---
+
 
 
